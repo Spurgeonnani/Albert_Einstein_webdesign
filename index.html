@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Albert Einstein's Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <div class="header-content">
+        <h1 class="site-title">Albert Einstein</h1>
+        <nav>
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#papers">Papers</a></li>
+            <li><a href="#hobbies">Hobbies</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#blogs-contact">Blogs</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section id="about">
+      <div class="about-box">
+        <h2 class="page-heading">About</h2>
+        <div class="about-content">
+          <div class="about-left">
+            <h3>Albert Einstein</h3>
+          </div>
+          <div class="about-center">
+            <img src="images/AE1.jpg" alt="Albert Einstein" />
+          </div>
+          <div class="about-right">
+            <h3>Biography</h3>
+            <p>
+              Albert Einstein was born in Germany on March 14, 1879. He started
+              his education in Munich but later moved to Switzerland, where he
+              continued his studies. In 1896, he joined the Swiss Federal
+              Polytechnic School in Zurich to study physics and mathematics.
+              After earning his diploma in 1901 and gaining Swiss citizenship,
+              he worked as a technical assistant at the Swiss Patent Office. In
+              1905, he completed his doctorate.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="papers">
+      <h2 class="page-heading">Papers</h2>
+      <div class="paper-grid">
+        <div class="paper-item">
+          <img src="images/AE2.png" alt="Paper Image" />
+          <h3>A New Determination of Molecular Dimensions</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor.
+          </p>
+        </div>
+        <div class="paper-item">
+          <img src="images/AE2.png" alt="Paper Image" />
+          <h3>Fundamental Ideas and Problems of Relativity Theory</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor.
+          </p>
+        </div>
+        <div class="paper-item">
+          <img src="images/AE2.png" alt="Paper Image" />
+          <h3>Foundations of the General Theory of Relativity</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor.
+          </p>
+        </div>
+        <div class="paper-item">
+          <img src="images/AE2.png" alt="Paper Image" />
+          <h3>The Meaning of Relativity</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="hobbies">
+      <h2 class="page-heading">Hobbies</h2>
+      <div class="hobby-grid">
+        <div class="hobby-item">
+          <img src="images/AE3.png" alt="Playing Violin" />
+          <h3>Playing Violin</h3>
+        </div>
+        <div class="hobby-item">
+          <img src="images/AE31.png" alt="Solving Puzzles" />
+          <h3>Solving Puzzles</h3>
+        </div>
+      </div>
+    </section>
+
+    <section id="gallery">
+      <h2 class="page-heading">Gallery</h2>
+      <div class="gallery-grid">
+        <div class="gallery-item">
+          <img src="images/GI1.png" alt="Gallery Image 1" />
+        </div>
+        <div class="gallery-item">
+          <img src="images/GI2.png" alt="Gallery Image 2" />
+        </div>
+        <div class="gallery-item">
+          <img src="images/GI3.jpg" alt="Gallery Image 3" />
+        </div>
+        <div class="gallery-item">
+          <img src="images/GI4.png" alt="Gallery Image 4" />
+        </div>
+        <div class="gallery-item">
+          <img src="images/GI5.png" alt="Gallery Image 5" />
+        </div>
+        <div class="gallery-item">
+          <img src="images/GI6.png" alt="Gallery Image 6" />
+        </div>
+        <div class="gallery-item">
+          <img src="images/GI7.png" alt="Gallery Image 7" />
+        </div>
+        <div class="gallery-item">
+          <img src="images/GI8.png" alt="Gallery Image 8" />
+        </div>
+      </div>
+    </section>
+
+    <section id="blogs-contact">
+      <div class="blogs-section">
+        <h2 class="page-heading">Blogs</h2>
+        <div class="blog-grid">
+          <div class="blog-item">
+            <img src="images/AE5.png" alt="Blog Image 1" />
+            <h3>3 Everyday inventions Albert Einstein made possible</h3>
+            <a
+              href="https://www.thalesgroup.com/en/markets/digital-identity-and-security/mobile/magazine/3-everyday-inventions-einstein-made-possible"
+              target="_blank"
+              >Read me</a
+            >
+          </div>
+          <div class="blog-item">
+            <img src="images/AE51.png" alt="Blog Image 2" />
+            <h3>Did Einstein have any close friends outside of work?</h3>
+            <a
+              href="https://www.quora.com/Did-Einstein-have-any-close-friends-outside-of-work"
+              target="_blank"
+              >Read me</a
+            >
+          </div>
+        </div>
+      </div>
+
+      <div class="contact-section">
+        <h2>Contact Me</h2>
+        <form id="contact-form">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required />
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" required></textarea>
+
+          <button type="submit">Submit</button>
+        </form>
+        <div class="social-media-icons">
+          <a href="https://www.linkedin.com" target="_blank"
+            ><img src="images/linkedin-icon.png" alt="LinkedIn"
+          /></a>
+          <a href="https://github.com" target="_blank"
+            ><img src="images/github-icon.png" alt="GitHub"
+          /></a>
+          <a href="https://www.facebook.com" target="_blank"
+            ><img src="images/facebook-icon.png" alt="Facebook"
+          /></a>
+          <a href="https://www.instagram.com" target="_blank"
+            ><img src="images/instagram-icon.png" alt="Instagram"
+          /></a>
+          <a href="https://www.twitter.com" target="_blank"
+            ><img src="images/twitter-icon.png" alt="Twitter"
+          /></a>
+        </div>
+      </div>
+    </section>
+
+    <a href="#top" class="back-to-top" id="back-to-top">&#8679;</a>
+  </body>
+</html>
